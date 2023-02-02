@@ -36,3 +36,7 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+vars:
+  salesforce_database: fivetran_salesforce
+  salesforce_schema: fivetran_salesforce
